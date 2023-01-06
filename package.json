@@ -1,0 +1,19 @@
+{
+  "name": "@defensestation/public-email-validator",
+  "version": "1.0.0",
+  "description": "Check whether the email address is public or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "public-email",
+    "email-checker",
+    "email-validator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crc-32": "^1.2.2"
+  }
+}
