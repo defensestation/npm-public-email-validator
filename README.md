@@ -1,5 +1,5 @@
 # public-email-validator
-A simple module to validate a public e-mail address.
+A simple and fastest module to validate a public e-mail address.
 
 ## Installation
 Install via NPM:
@@ -19,8 +19,12 @@ yarn add @defensestation/public-email-validator
 
 
 ```javascript
-import validate from "@defensestation/public-email-validator";
+import { isPublicEmail, isValidEmail } from "@defensestation/public-email-validator";
 
-validate("test@email.com"); // false
+isValidEmail("test@email.com"); //true
+isPublicEmail("test@email.com"); // false
 
 ```
+
+## Time complexity
+Time complexity of isPublicEmail function is O(1) which makes it the fastest code to check whether an email is public or not.

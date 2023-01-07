@@ -1,6 +1,6 @@
 {
   "name": "@defensestation/public-email-validator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Check whether the email address is public or not.",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,15 @@
   "keywords": [
     "public-email",
     "email-checker",
-    "email-validator"
+    "email-validator",
+    "company-email-validator",
+    "public-email-validator",
+    "is-public-email"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/defensestation/npm-public-email-validator"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
