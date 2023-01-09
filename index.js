@@ -1,6 +1,6 @@
 var CRC32 = require("crc-32");
 const emails = require("./constants/public_emails");
-const VALID_REGEX = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+const VALID_REGEX = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 function isValidEmail(email) {
     if(typeof email !== 'string') throw new Error('Invalid argument.');
