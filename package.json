@@ -1,6 +1,6 @@
 {
   "name": "@defensestation/public-email-validator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Check whether the email address is public or not.",
   "main": "index.js",
   "scripts": {
