@@ -1,4 +1,3 @@
-var CRC32 = require("crc-32");
 const emails = require("./constants/public_emails");
 const VALID_REGEX = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
@@ -17,10 +16,8 @@ function isPublicEmail(email){
 
   // split the email address to get domain
   const domain = email.split('@')[1];
-  // get the domain hash
-  const domainHash = CRC32.str(domain)  ;
   // check if domain is in public list
-  return emails.hasOwnProperty(domainHash);
+  return emails[domain]?true:false;
 }
 
 module.exports = {
