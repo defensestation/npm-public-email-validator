@@ -1,6 +1,6 @@
 {
   "name": "@defensestation/public-email-validator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Check whether the email address is public or not.",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,5 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "crc-32": "^1.2.2"
-  }
+  "dependencies": {}
 }
